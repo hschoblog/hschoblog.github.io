@@ -55,13 +55,13 @@ while (j < 20) {
 
 
 {% highlight python %}
-// print 10
+#print 10
 for i in range(0, 11):
   print(i)
 
 
-// remove
-list A = [item for item in listB if item == 1]
+#remove
+list A = [item for item in listB if item]
 {% endhighlight %}
 
 ### Math
