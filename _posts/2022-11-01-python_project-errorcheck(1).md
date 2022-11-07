@@ -20,6 +20,7 @@ tags: [Python]
 
 <br>
 위의 엑셀파일 처럼, 데이터들이 항목별로 지점별로 3만개~6만개 정도의 데이터가 있습니다.
+<br>
 제가 하고 싶은 것은 이 데이터들 중에서 항목별로 기준에 맞지 않는 데이터들만 따로 걸러내서 새로운 시트를 만드는 것입니다.
 <br>
 우선 파이썬에서 엑셀 파일을 다루기 위해선 openpyxl 모듈을 설치해줘야 합니다.
@@ -104,8 +105,8 @@ for f in file_list:
                           ['0081439202273', 'DGF', 'FR WHOLE ROUND RIVERBARB FISH 200UP', 'FR WHOLE ROUND RIVERBARB FISH 200UP', '30LB', None, None, '12', 'CHN/VTN/TL/PHL', '1905', 'FROZEN ETC PRODUCTS', '1905001', 'FZ. ETC PRODUCTS', '1', None, '1', None, None, None, '1222', 'MY-A & CO', '1', 'FR2530', 170.0, '30.00', '5.67', '9.99', '9.99', '0.00', '0.00', 'NUL'] 
                          ],
         '0081593400010': [
-                           ['0081593400010', None, 'COCO RICO SODA(CAN)', '코코리코 소다(캔)', '4X6X12OZ', '501', 'CENTRAL AMERICA', '12', 'CHN/VTN/TL/PHL', '2201', 'BEVERAGE(SOFT DRINKS)', '2201002', 'CARBONATED', '1', None, '1', None, None, None, '1243', 'METRO CHEF', '0', '00107', 12.99, '24.00', '0.54', '0.99', '0.99', '0.00', '0.00', 'NUL'],
-                           ['0081593400010', None, 'COCO RICO SODA(CAN)', '코코리코 소다(캔)', '4X6X12OZ', '501', 'CENTRAL AMERICA', '12', 'CHN/VTN/TL/PHL', '2201', 'BEVERAGE(SOFT DRINKS)', '2201002', 'CARBONATED', '1', None, '1', None, None, None, '1209', 'NEW INTERNATIONAL FOOD', '1', 'COCO987', 13.0, '24.00', '0.54', '0.99', '0.99', '0.00', '0.00', 'NUL']
+                          ['0081593400010', None, 'COCO RICO SODA(CAN)', '코코리코 소다(캔)', '4X6X12OZ', '501', 'CENTRAL AMERICA', '12', 'CHN/VTN/TL/PHL', '2201', 'BEVERAGE(SOFT DRINKS)', '2201002', 'CARBONATED', '1', None, '1', None, None, None, '1243', 'METRO CHEF', '0', '00107', 12.99, '24.00', '0.54', '0.99', '0.99', '0.00', '0.00', 'NUL'],
+                          ['0081593400010', None, 'COCO RICO SODA(CAN)', '코코리코 소다(캔)', '4X6X12OZ', '501', 'CENTRAL AMERICA', '12', 'CHN/VTN/TL/PHL', '2201', 'BEVERAGE(SOFT DRINKS)', '2201002', 'CARBONATED', '1', None, '1', None, None, None, '1209', 'NEW INTERNATIONAL FOOD', '1', 'COCO987', 13.0, '24.00', '0.54', '0.99', '0.99', '0.00', '0.00', 'NUL']
                          ]
       }
 
